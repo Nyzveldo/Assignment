@@ -123,6 +123,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Pravart.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WellerWebForm.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WellerWebForm.aspx.cs">
+      <DependentUpon>WellerWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WellerWebForm.aspx.designer.cs">
+      <DependentUpon>WellerWebForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
